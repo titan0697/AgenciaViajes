@@ -1,2 +1,2 @@
-instalar : npm run i
-ejecutar: npm run dev
+* instalar : npm run i
+* ejecutar: npm run dev
