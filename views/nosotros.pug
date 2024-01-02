@@ -1,5 +1,34 @@
 extends ./layout/index
 
 block contenido
-    p Nosotros
-    img(src="img/cupon.jpg")
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                Lorem 
+                    blockquote ipsum dolor sit, amet consectetur adipisicing elit. Culpa excepturi magni quisquam incidunt! Consequatur, ipsam! Fugit ea eius nostrum, sed in officiis nemo quo eligendi harum dolorum nisi officia temporibus.
+
+                Lorem 
+                    p ipsum dolor sit, amet consectetur adipisicing elit. Sapiente voluptatibus, maxime architecto saepe assumenda minima eligendi magni adipisci natus, amet sunt, temporibus qui. Sunt suscipit officiis consectetur error quasi consequuntur?
+
+                Lorem 
+                    p ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio exercitationem esse fugiat ipsa voluptate expedita distinctio consequuntur architecto, aspernatur neque dicta impedit rerum minus quae placeat aliquam molestias culpa.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p ipsum dolor sit amet consectetur adipisicing elit.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img fluid mb-4")
+                    h2.mb-4 Destinos
+                    p ipsum dolor sit amet consectetur adipisicing elit.
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img fluid mb-4")
+                    h2.mb-4 Precios
+                    p ipsum dolor sit amet consectetur adipisicing elit.
